@@ -1,0 +1,9 @@
+{
+    "description":"**",
+    "main": "app/index.js",
+	"scripts":{
+	  "packwin":"electron-packager ./app  MyExe  --platform=win32 --arch=x64 --app-version=0.0.1 --out=./distDir --icon=icon.ico --electron-version=8.2.1 --overwrite",
+	  "packlinux":"electron-packager ./app  MyExe  --platform=linux --arch=x64 --app-version=0.0.1 --out=./distDir --icon=icon.ico --electron-version=8.2.1 --overwrite"
+	  
+	}
+}
